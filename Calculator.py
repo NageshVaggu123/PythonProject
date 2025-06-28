@@ -1,6 +1,6 @@
 # Function to perform arithmetic operations
 def calculator():
-	operation = input("Enter operation (+, -, *, /): ")
+	operation = input("Enter operation (+, -, *, /,%): ")
 	num1 = float(input("Enter first number: "))
 	num2 = float(input("Enter second number: "))
 
@@ -10,8 +10,8 @@ def calculator():
 		print(f"The result is: {num1 - num2}")
 	elif operation == '*':
 		print(f"The result is: {num1 * num2}")
-	elif operation == '*':
-		print(f"The result is: {num1 * num2}")
+	elif operation == '%':
+		print(f"The result is: {num1 % num2}")
 	elif operation == '/':
 		if num2 != 0:
 			print(f"The result is: {num1 / num2}")
